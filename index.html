@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Great Feel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/greatfeel1 logo.ico" type="image/x-icon">
+
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 760px) {
+      .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- mobile menu Start -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <img src="assets/greatfeel 1.png" class="w-30" alt="Great Feel">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            About Us
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link ff-poppins p-0 border-0">
+                About Us
+              </a>
+            </li>
+            <hr class="my-1 mx-0" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item ">
+                Mission Statement
+              </a>
+            </li>
+            <hr class="my-1 mx-0" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Our Team
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Our Values
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Great Feel Core Principles
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                News
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Blog
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Careers
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Concept
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Common Sense
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Collective Wisdom
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Natural Banlance
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                AI for mental Health
+              </a>
+            </li>
+            <hr class="my-1" />
+
+          </ul>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Services
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Overview
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Virtual Partner
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Game Theory
+              </a>
+            </li>
+            <hr class="my-1" />
+          </ul>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Let’s Start
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="chat.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Let’s Start
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Quick Personality Test
+              </a>
+            </li>
+            <hr class="my-1" />
+          </ul>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link ff-poppins border-0 p-0 my-1">Contact Us</a>
+          </li>
+        </ul>
+        <div class="d-flex w-100 justify-content-start my-1">
+          <button class="btn login-btn ff-poppins mx-2">Login</button>
+          <button class="btn demo-btn ff-poppins mx-2">Request Demo</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile menu end -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex justify-content-between border-bottom-navbar pb-2">
+        <a class="navbar-brand d-block w-10" href="index.html">
+          <img src="assets/greatfeel 1.png" class="w-100 " />
+        </a>
+        <div class="d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <div class="d-flex flex-column gap-2">
+            <div class="bg-dark " style="width: 30px; height: 1px;"></div>
+            <div class="bg-dark " style="width: 30px; height: 1px;"></div>
+            <div class="bg-dark " style="width: 30px; height: 1px;"></div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
+          <div class="d-flex justify-content-between w-75">
+            <div class="d-flex justify-content-end align-items-center flex-column flex-lg-row w-88">
+              <ul class="navbar-nav mt-1 margin-left">
+                <li class="nav-item" onmouseover="showAboutDropdown()" onmouseout="hideAboutDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" aria-current="page" href="index.html">About Us
+                    <img src="assets/caret bottom.png" alt="Great Feel" class="mx-1" /></a>
+                  <div
+                    class="home__dropdown-width position-absolute d-none bg-white z-2 rounded-2 shadow product-dropdown"
+                    id="about__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showAboutDropdown()"
+                      onmouseout="hideAboutDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Mission Statement
+                              </a>
+                            </li>
+                            <hr class="my-1 mx-0" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Our Team
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Our Values
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Great Feel Core Principles
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                News
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Blog
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Careers
+                              </a>
+                            </li>
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item" onmouseover="showConceptDropdown()" onmouseout="hideConceptDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" aria-current="page" href="coming_soon.html">Concept<img
+                      src="assets/caret bottom.png" alt="Great Feel" class="mx-1" /></a>
+                  <div
+                    class="home__dropdown-width position-absolute d-none bg-white z-2 rounded-2 shadow product-dropdown"
+                    id="concept__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showConceptDropdown()"
+                      onmouseout="hideConceptDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Common Sense
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Collective Wisdom
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Natural Banlance
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                AI for mental Health
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav-item" onmouseover="showServiceDropdown()" onmouseout="hideServiceDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" href="coming_soon.html">Services <img
+                      src="assets/caret bottom.png" alt="Great Feel" /></a>
+                  <div class="home__dropdown-width position-absolute bg-white z-2 d-none rounded-2 shadow page-dropdown"
+                    id="Service__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showServiceDropdown()"
+                      onmouseout="hideServiceDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Overview
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Virtual Partner
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Game Theory
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item" onmouseover="showstartDropdown()" onmouseout="hidestartDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" href="chat.html">Let’s Start <img
+                      src="assets/caret bottom.png" alt="Great Feel" /></a>
+                  <div class="home__dropdown-width position-absolute bg-white z-2 d-none rounded-2 shadow page-dropdown"
+                    id="start__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showstartDropdown()"
+                      onmouseout="hidestartDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Quick Personality Test
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link ff-poppins">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex w-25 justify-content-end">
+            <button class="btn login-btn ff-poppins mx-2">Login</button>
+            <button class="btn demo-btn ff-poppins mx-2 px-3  ">Request Demo</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container my-2 ">
+      <div class="row mb-3 mt-4 ">
+        <div class="col-12 d-flex justify-content-center align-items-center ">
+          <img src="assets/greatfeel1 logo.png" alt="Great Feel" />
+        </div>
+      </div>
+      <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-transparent">
+            <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+              <h2 class="banner-heading">Your Mental</h2>
+              <h1 class="banner-heading mb-2">Wellness Partner</h1>
+              <p class=".ff-poppins w-75">
+                Meet Great Feel, your virtual ally for mental health. Explore
+                a confidential space to chat, gain insights, and find common
+                solutions on your mental health journey around the clock
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide bg-transparent">
+            <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+              <h2 class="banner-heading">Greet Feel</h2>
+              <h1 class="banner-heading">Sense</h1>
+              <p class=".ff-poppins w-75">
+                Meet Great Feel, your virtual ally for mental health. Explore
+                a confidential space to chat, gain insights, and find common
+                solutions on your mental health journey around the clock
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide bg-transparent">
+            <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+              <h2 class="banner-heading">Your Mental</h2>
+              <h1 class="banner-heading">Wisdom</h1>
+              <p class=".ff-poppins w-75">
+                Meet Great Feel, your virtual ally for mental health. Explore
+                a confidential space to chat, gain insights, and find common
+                solutions on your mental health journey around the clock
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide bg-transparent">
+            <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+              <h2 class="banner-heading">Your Mental</h2>
+              <h1 class="banner-heading">Balance</h1>
+              <p class=".ff-poppins w-75">
+                Meet Great Feel, your virtual ally for mental health. Explore
+                a confidential space to chat, gain insights, and find common
+                solutions on your mental health journey around the clock
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container position-relative">
+          <div class="swiper-pagination pagination-margin d-none" style="font-size: 50px !important"></div>
+        </div>
+      </div>
+      <div class="text-center w-100 my-4">
+        <button class="btn demo-btn ff-poppins mx-2 px-4 ">Request Demo</button>
+        <a href="coming_soon.html" class="d-block text-decoration-none color-red ff-poppins mt-2">
+          <img src="assets/play button.png" alt="Great Feel" /> How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h3 class="ff-poppins color-blue mb-3">Our Happy Clients</h3>
+
+        <div class="swiper myswiper2  pb-5 pt-3 ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-1.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">John deo</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-2.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">John Wick</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-3.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">Jennifer</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-4.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">Alex Haies</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-1.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">John deo</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-2.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">John Wick</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-3.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">Jennifer</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-slide px-2">
+              <div class="d-flex flex-column shadow justify-content-center align-items-center px-5 py-4 rounded-3">
+                <img src="assets/people-4.png" alt="Great Feel" class="mb-2" width="30px" height="30px" />
+                <p class="color-red ff-poppins">Alex Haies</p>
+                <p class="text-center color-blue ff-poppins" style="font-size: 9px">
+                  Lorem Ipsum is simply <br />
+                  dummy text of he printing
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="11" viewBox="0 0 59 11" fill="none">
+                  <path
+                    d="M4.37178 1.30336L3.17632 3.83581L0.501627 4.24322C0.0219774 4.31591 -0.170249 4.93372 0.177589 5.28757L2.11266 7.25769L1.65498 10.0407C1.5726 10.5438 2.07971 10.9206 2.50444 10.6853L4.8972 9.37125L7.28995 10.6853C7.71468 10.9187 8.22179 10.5438 8.13941 10.0407L7.68173 7.25769L9.6168 5.28757C9.96464 4.93372 9.77242 4.31591 9.29277 4.24322L6.61808 3.83581L5.42262 1.30336C5.20842 0.851951 4.5878 0.846212 4.37178 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M16.6148 1.30336L15.4193 3.83581L12.7446 4.24322C12.265 4.31591 12.0727 4.93372 12.4206 5.28757L14.3557 7.25769L13.898 10.0407C13.8156 10.5438 14.3227 10.9206 14.7474 10.6853L17.1402 9.37125L19.5329 10.6853C19.9577 10.9187 20.4648 10.5438 20.3824 10.0407L19.9247 7.25769L21.8598 5.28757C22.2076 4.93372 22.0154 4.31591 21.5358 4.24322L18.8611 3.83581L17.6656 1.30336C17.4514 0.851951 16.8308 0.846212 16.6148 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M28.8578 1.30336L27.6623 3.83581L24.9876 4.24322C24.508 4.31591 24.3157 4.93372 24.6636 5.28757L26.5986 7.25769L26.141 10.0407C26.0586 10.5438 26.5657 10.9206 26.9904 10.6853L29.3832 9.37125L31.7759 10.6853C32.2007 10.9187 32.7078 10.5438 32.6254 10.0407L32.1677 7.25769L34.1028 5.28757C34.4506 4.93372 34.2584 4.31591 33.7787 4.24322L31.1041 3.83581L29.9086 1.30336C29.6944 0.851951 29.0738 0.846212 28.8578 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M41.1008 1.30336L39.9053 3.83581L37.2306 4.24322C36.751 4.31591 36.5587 4.93372 36.9066 5.28757L38.8416 7.25769L38.384 10.0407C38.3016 10.5438 38.8087 10.9206 39.2334 10.6853L41.6262 9.37125L44.0189 10.6853C44.4437 10.9187 44.9508 10.5438 44.8684 10.0407L44.4107 7.25769L46.3458 5.28757C46.6936 4.93372 46.5014 4.31591 46.0217 4.24322L43.3471 3.83581L42.1516 1.30336C41.9374 0.851951 41.3168 0.846212 41.1008 1.30336Z"
+                    fill="#F6AE01" />
+                  <path
+                    d="M53.3437 1.30336L52.1483 3.83581L49.4736 4.24322C48.9939 4.31591 48.8017 4.93372 49.1496 5.28757L51.0846 7.25769L50.627 10.0407C50.5446 10.5438 51.0517 10.9206 51.4764 10.6853L53.8692 9.37125L56.2619 10.6853C56.6867 10.9187 57.1938 10.5438 57.1114 10.0407L56.6537 7.25769L58.5888 5.28757C58.9366 4.93372 58.7444 4.31591 58.2647 4.24322L55.59 3.83581L54.3946 1.30336C54.1804 0.851951 53.5598 0.846212 53.3437 1.30336Z"
+                    fill="#F6AE01" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script>
+    var swiper1 = new Swiper(".mySwiper1", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      direction: 'horizontal',
+      loop: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+    });
+
+    var swiper2 = new Swiper(".myswiper2", {
+      slidesPerView: 4,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          direction: "horizontal",
+        },
+        760: {
+          slidesPerView: 2,
+          direction: "horizontal",
+        },
+        991: {
+          slidesPerView: 3,
+          direction: "horizontal",
+        },
+        1199: {
+          slidesPerView: 4,
+          direction: "horizontal",
+        },
+      },
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

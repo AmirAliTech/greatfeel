@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Great Feel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/greatfeel1 logo.ico" type="image/x-icon">
+
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 760px) {
+      .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- mobile menu Start -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+          Offcanvas right
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            About Us
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link ff-poppins p-0 border-0">
+                About Us
+              </a>
+            </li>
+            <hr class="my-1 mx-0" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item ">
+                Mission Statement
+              </a>
+            </li>
+            <hr class="my-1 mx-0" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Our Team
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Our Values
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Great Feel Core Principles
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                News
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Blog
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Careers
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Concept
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Common Sense
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Collective Wisdom
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Natural Banlance
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                AI for mental Health
+              </a>
+            </li>
+            <hr class="my-1" />
+
+          </ul>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Services
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Overview
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Virtual Partner
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Game Theory
+              </a>
+            </li>
+            <hr class="my-1" />
+          </ul>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-toggle nav-link ff-poppins p-0 border-0 my-1" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Let’s Start
+          </div>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a href="chat.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Let’s Start
+              </a>
+            </li>
+            <hr class="my-1" />
+            <li class="nav-item">
+              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0 dropdown-item">
+                Quick Personality Test
+              </a>
+            </li>
+            <hr class="my-1" />
+          </ul>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link ff-poppins border-0 p-0 my-1">Contact Us</a>
+          </li>
+        </ul>
+        <div class="d-flex w-100 justify-content-start my-1">
+          <button class="btn login-btn ff-poppins mx-2">Login</button>
+          <button class="btn demo-btn ff-poppins mx-2">Request Demo</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile menu end -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex justify-content-between border-bottom-navbar pb-2">
+        <a class="navbar-brand d-block w-10" href="coming_soon.html">
+          <img src="assets/greatfeel 1.png " class="w-100 " />
+        </a>
+        <div class="d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <div class="d-flex flex-column gap-2">
+            <div class="bg-dark " style="height:1px; width:30px;"></div>
+            <div class="bg-dark " style="height:1px; width:30px;"></div>
+            <div class="bg-dark " style="height:1px; width:30px;"></div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
+          <div class="d-flex justify-content-between w-75">
+            <div class="d-flex justify-content-end align-items-center flex-column flex-lg-row w-88">
+              <ul class="navbar-nav mt-1 margin-left">
+                <li class="nav-item" onmouseover="showAboutDropdown()" onmouseout="hideAboutDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" aria-current="page" href="index.html">About Us
+                    <img src="assets/caret bottom.png" alt="Great Feel" class="mx-1" /></a>
+                  <div
+                    class="home__dropdown-width position-absolute d-none bg-white z-2 rounded-2 shadow product-dropdown"
+                    id="about__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showAboutDropdown()"
+                      onmouseout="hideAboutDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Mission Statement
+                              </a>
+                            </li>
+                            <hr class="my-1 mx-0" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Our Team
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Our Values
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Great Feel Core Principles
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                News
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Blog
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Careers
+                              </a>
+                            </li>
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item" onmouseover="showConceptDropdown()" onmouseout="hideConceptDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" aria-current="page" href="coming_soon.html">Concept<img
+                      src="assets/caret bottom.png" alt="Great Feel" class="mx-1" /></a>
+                  <div
+                    class="home__dropdown-width position-absolute d-none bg-white z-2 rounded-2 shadow product-dropdown"
+                    id="concept__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showConceptDropdown()"
+                      onmouseout="hideConceptDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Common Sense
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Collective Wisdom
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Natural Banlance
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                AI for mental Health
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav-item" onmouseover="showServiceDropdown()" onmouseout="hideServiceDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" href="coming_soon.html">Services <img
+                      src="assets/caret bottom.png" alt="Great Feel" /></a>
+                  <div class="home__dropdown-width position-absolute bg-white z-2 d-none rounded-2 shadow page-dropdown"
+                    id="Service__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showServiceDropdown()"
+                      onmouseout="hideServiceDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Overview
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Virtual Partner
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Game Theory
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item" onmouseover="showstartDropdown()" onmouseout="hidestartDropdown()">
+                  <a class="nav-link ff-poppins border_bottom" href="chat.html">Let’s Start <img
+                      src="assets/caret bottom.png" alt="Great Feel" /></a>
+                  <div class="home__dropdown-width position-absolute bg-white z-2 d-none rounded-2 shadow page-dropdown"
+                    id="start__dropdown">
+                    <ul class="navbar-nav d-flex flex-column py-3" onmouseover="showstartDropdown()"
+                      onmouseout="hidestartDropdown()">
+                      <div class="">
+                        <div class="row">
+                          <div class="col-12">
+                            <li class="nav-item">
+                              <a href="coming_soon.html" class="nav-link ff-poppins p-0 border-0">
+                                Quick Personality Test
+                              </a>
+                            </li>
+                            <hr class="my-1" />
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link ff-poppins active ">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex w-25 justify-content-end">
+            <button class="btn login-btn ff-poppins mx-2">Login</button>
+            <button class="btn demo-btn ff-poppins mx-2">Request Demo</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="h-80 my-5 my-lg-0 py-3 py-lg-0  ">
+    <div class="d-flex h-100 container ">
+      <div class="d-flex flex-column align-items-center justify-content-center w-100   ">
+        <h1 class=".ff-poppins color-blue w-100 mb-5 ">Contact Us</h1>
+        <form action="#" class="w-100 ">
+          <div class="row">
+            <div class="col-md-6 ">
+              <label for="name" class="ff-poppins color-blue mb-1 ">Your Name</label>
+              <input type="text" name="name" id="name" placeholder="your name here..."
+                class="border-0 outline-none w-100 px-3   py-2 rounded-1  shadow-sm " required>
+            </div>
+            <div class="col-md-6 ">
+              <label for="email" class="ff-poppins color-blue mb-1 ">Your Email</label>
+              <input type="email" name="email" id="email" placeholder="your email here..."
+                class="border-0 outline-none w-100 px-3   py-2 rounded-1 shadow-sm" required>
+            </div>
+            <div class="col-md-12 mt-3 ">
+              <label for="message" class="ff-poppins color-blue mb-1 ">Message</label>
+              <textarea name="message" id="message" cols="100" rows="10" placeholder="type message here..."
+                class="border-0 outline-none w-100 px-3   py-2 rounded-1 shadow-sm" required></textarea>
+            </div>
+            <div class="col-md-3">
+              <input type="submit" value="send" class="btn send-btn px-5 mt-2  .ff-poppins">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
